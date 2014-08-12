@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678A4847199AC3B30073E59A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A4846199AC3B30073E59A /* Foundation.framework */; };
+		678A4849199AC3B30073E59A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A4848199AC3B30073E59A /* CoreGraphics.framework */; };
+		678A484B199AC3B30073E59A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A484A199AC3B30073E59A /* UIKit.framework */; };
+		678A4851199AC3B30073E59A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 678A484F199AC3B30073E59A /* InfoPlist.strings */; };
+		678A4853199AC3B30073E59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A4852199AC3B30073E59A /* main.m */; };
+		678A4857199AC3B30073E59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A4856199AC3B30073E59A /* AppDelegate.m */; };
+		678A485A199AC3B30073E59A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678A4858199AC3B30073E59A /* Main_iPhone.storyboard */; };
+		678A485D199AC3B30073E59A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678A485B199AC3B30073E59A /* Main_iPad.storyboard */; };
+		678A4860199AC3B30073E59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A485F199AC3B30073E59A /* ViewController.m */; };
+		678A4862199AC3B30073E59A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678A4861199AC3B30073E59A /* Images.xcassets */; };
+		678A4869199AC3B30073E59A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A4868199AC3B30073E59A /* XCTest.framework */; };
+		678A486A199AC3B30073E59A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A4846199AC3B30073E59A /* Foundation.framework */; };
+		678A486B199AC3B30073E59A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678A484A199AC3B30073E59A /* UIKit.framework */; };
+		678A4873199AC3B30073E59A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 678A4871199AC3B30073E59A /* InfoPlist.strings */; };
+		678A4875199AC3B30073E59A /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A4874199AC3B30073E59A /* WebViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678A486C199AC3B30073E59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678A483B199AC3B30073E59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678A4842199AC3B30073E59A;
+			remoteInfo = WebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		678A4843199AC3B30073E59A /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		678A4846199AC3B30073E59A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		678A4848199AC3B30073E59A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		678A484A199AC3B30073E59A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		678A484E199AC3B30073E59A /* WebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebView-Info.plist"; sourceTree = "<group>"; };
+		678A4850199AC3B30073E59A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678A4852199AC3B30073E59A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		678A4854199AC3B30073E59A /* WebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebView-Prefix.pch"; sourceTree = "<group>"; };
+		678A4855199AC3B30073E59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		678A4856199AC3B30073E59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		678A4859199AC3B30073E59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		678A485C199AC3B30073E59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		678A485E199AC3B30073E59A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		678A485F199AC3B30073E59A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		678A4861199AC3B30073E59A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		678A4867199AC3B30073E59A /* WebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678A4868199AC3B30073E59A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		678A4870199AC3B30073E59A /* WebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewTests-Info.plist"; sourceTree = "<group>"; };
+		678A4872199AC3B30073E59A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678A4874199AC3B30073E59A /* WebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678A4840199AC3B30073E59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678A4849199AC3B30073E59A /* CoreGraphics.framework in Frameworks */,
+				678A484B199AC3B30073E59A /* UIKit.framework in Frameworks */,
+				678A4847199AC3B30073E59A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678A4864199AC3B30073E59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678A4869199AC3B30073E59A /* XCTest.framework in Frameworks */,
+				678A486B199AC3B30073E59A /* UIKit.framework in Frameworks */,
+				678A486A199AC3B30073E59A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678A483A199AC3B30073E59A = {
+			isa = PBXGroup;
+			children = (
+				678A484C199AC3B30073E59A /* WebView */,
+				678A486E199AC3B30073E59A /* WebViewTests */,
+				678A4845199AC3B30073E59A /* Frameworks */,
+				678A4844199AC3B30073E59A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		678A4844199AC3B30073E59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678A4843199AC3B30073E59A /* WebView.app */,
+				678A4867199AC3B30073E59A /* WebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678A4845199AC3B30073E59A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				678A4846199AC3B30073E59A /* Foundation.framework */,
+				678A4848199AC3B30073E59A /* CoreGraphics.framework */,
+				678A484A199AC3B30073E59A /* UIKit.framework */,
+				678A4868199AC3B30073E59A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678A484C199AC3B30073E59A /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				678A4855199AC3B30073E59A /* AppDelegate.h */,
+				678A4856199AC3B30073E59A /* AppDelegate.m */,
+				678A4858199AC3B30073E59A /* Main_iPhone.storyboard */,
+				678A485B199AC3B30073E59A /* Main_iPad.storyboard */,
+				678A485E199AC3B30073E59A /* ViewController.h */,
+				678A485F199AC3B30073E59A /* ViewController.m */,
+				678A4861199AC3B30073E59A /* Images.xcassets */,
+				678A484D199AC3B30073E59A /* Supporting Files */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		678A484D199AC3B30073E59A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				678A484E199AC3B30073E59A /* WebView-Info.plist */,
+				678A484F199AC3B30073E59A /* InfoPlist.strings */,
+				678A4852199AC3B30073E59A /* main.m */,
+				678A4854199AC3B30073E59A /* WebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		678A486E199AC3B30073E59A /* WebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				678A4874199AC3B30073E59A /* WebViewTests.m */,
+				678A486F199AC3B30073E59A /* Supporting Files */,
+			);
+			path = WebViewTests;
+			sourceTree = "<group>";
+		};
+		678A486F199AC3B30073E59A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				678A4870199AC3B30073E59A /* WebViewTests-Info.plist */,
+				678A4871199AC3B30073E59A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678A4842199AC3B30073E59A /* WebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678A4878199AC3B30073E59A /* Build configuration list for PBXNativeTarget "WebView" */;
+			buildPhases = (
+				678A483F199AC3B30073E59A /* Sources */,
+				678A4840199AC3B30073E59A /* Frameworks */,
+				678A4841199AC3B30073E59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebView;
+			productName = WebView;
+			productReference = 678A4843199AC3B30073E59A /* WebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678A4866199AC3B30073E59A /* WebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678A487B199AC3B30073E59A /* Build configuration list for PBXNativeTarget "WebViewTests" */;
+			buildPhases = (
+				678A4863199AC3B30073E59A /* Sources */,
+				678A4864199AC3B30073E59A /* Frameworks */,
+				678A4865199AC3B30073E59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678A486D199AC3B30073E59A /* PBXTargetDependency */,
+			);
+			name = WebViewTests;
+			productName = WebViewTests;
+			productReference = 678A4867199AC3B30073E59A /* WebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678A483B199AC3B30073E59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Naranjo";
+				TargetAttributes = {
+					678A4866199AC3B30073E59A = {
+						TestTargetID = 678A4842199AC3B30073E59A;
+					};
+				};
+			};
+			buildConfigurationList = 678A483E199AC3B30073E59A /* Build configuration list for PBXProject "WebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678A483A199AC3B30073E59A;
+			productRefGroup = 678A4844199AC3B30073E59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678A4842199AC3B30073E59A /* WebView */,
+				678A4866199AC3B30073E59A /* WebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678A4841199AC3B30073E59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678A485D199AC3B30073E59A /* Main_iPad.storyboard in Resources */,
+				678A4862199AC3B30073E59A /* Images.xcassets in Resources */,
+				678A485A199AC3B30073E59A /* Main_iPhone.storyboard in Resources */,
+				678A4851199AC3B30073E59A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678A4865199AC3B30073E59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678A4873199AC3B30073E59A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678A483F199AC3B30073E59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678A4860199AC3B30073E59A /* ViewController.m in Sources */,
+				678A4857199AC3B30073E59A /* AppDelegate.m in Sources */,
+				678A4853199AC3B30073E59A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678A4863199AC3B30073E59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678A4875199AC3B30073E59A /* WebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678A486D199AC3B30073E59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678A4842199AC3B30073E59A /* WebView */;
+			targetProxy = 678A486C199AC3B30073E59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		678A484F199AC3B30073E59A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678A4850199AC3B30073E59A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		678A4858199AC3B30073E59A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678A4859199AC3B30073E59A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		678A485B199AC3B30073E59A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678A485C199AC3B30073E59A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		678A4871199AC3B30073E59A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678A4872199AC3B30073E59A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		678A4876199AC3B30073E59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		678A4877199AC3B30073E59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678A4879199AC3B30073E59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebView/WebView-Prefix.pch";
+				INFOPLIST_FILE = "WebView/WebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		678A487A199AC3B30073E59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebView/WebView-Prefix.pch";
+				INFOPLIST_FILE = "WebView/WebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		678A487C199AC3B30073E59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebView.app/WebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebView/WebView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WebViewTests/WebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		678A487D199AC3B30073E59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebView.app/WebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebView/WebView-Prefix.pch";
+				INFOPLIST_FILE = "WebViewTests/WebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678A483E199AC3B30073E59A /* Build configuration list for PBXProject "WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A4876199AC3B30073E59A /* Debug */,
+				678A4877199AC3B30073E59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678A4878199AC3B30073E59A /* Build configuration list for PBXNativeTarget "WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A4879199AC3B30073E59A /* Debug */,
+				678A487A199AC3B30073E59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		678A487B199AC3B30073E59A /* Build configuration list for PBXNativeTarget "WebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678A487C199AC3B30073E59A /* Debug */,
+				678A487D199AC3B30073E59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678A483B199AC3B30073E59A /* Project object */;
+}
