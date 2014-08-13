@@ -9,11 +9,12 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
+//@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
 @end
 
 @implementation ViewController
-
+/*
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -24,6 +25,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+*/
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSString *fullURL = @"http://findby.co";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_viewWeb loadRequest:requestObj];
 }
 
 @end
